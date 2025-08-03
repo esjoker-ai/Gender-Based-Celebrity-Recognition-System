@@ -1,5 +1,5 @@
 # Gender-Based-Celebrity-Recognition-System
-This repository contains a Python project for a gender-based celebrity recognition system. The core of the system is a pipeline that integrates two distinct machine learning models:
+his repository contains a Python project for a gender-based celebrity recognition system. The core of the system is a pipeline that integrates two distinct machine learning models:
 
 Gender Detection: A YOLO model is used to detect people in an image or video stream. It then classifies the detected person as either male or female. The system provides visual feedback by drawing a bounding box around the person, colored green for females and blue for males.
 
@@ -19,3 +19,32 @@ Step 3: The cropped image of the person is passed to the classifier.h5 model.
 Step 4: The classifier model predicts which of the 12 celebrities the person is.
 
 Output: The final output is an image or video frame with colored bounding boxes and labels identifying both the gender and the celebrity name.
+
+Prerequisites
+Trained Classifier Model: You must download the classifier.h5 file from the following Google Drive link: https://drive.google.com/file/d/16k4rBf4hkJEKbIR62U9vBF7thx9vmpGC/view?usp=sharing
+
+YOLO Model: You will need a pre-trained YOLO model for person and gender detection.
+
+tensorflow
+
+keras
+
+ultralytics
+
+opencv-python
+
+numpy
+
+
+
+
+
+
+
+
+
+
+
+
+Tools
+
